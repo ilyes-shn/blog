@@ -15,7 +15,7 @@ const Volunteers = () => {
           <section class="sub-header">
             <nav>
               <a href="index.html">
-                <img src="images/logo2.png" />
+                <img alt="" src="images/logo2.png" />
               </a>
               <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onClick={hideMenu}></i>
@@ -47,7 +47,7 @@ const Volunteers = () => {
     
             <div class="row">
               <div class="OurVolunteers-col">
-                <img src="images/user1.jpg" />
+                <img alt="" src="images/user1.jpg" />
                 <div>
                   <p>alsjdf;lasdjfa;lsdjf;lad</p>
                   <h3>Barbra Berkley</h3>
@@ -59,7 +59,7 @@ const Volunteers = () => {
                 </div>
               </div>
               <div class="OurVolunteers-col">
-                <img src="images/user2.jpg" />
+                <img alt="" src="images/user2.jpg" />
                 <div>
                   <p>alsjdf;lasdjfa;lsdjf;lad</p>
                   <h3>Margeret Hastings</h3>
@@ -72,7 +72,7 @@ const Volunteers = () => {
               </div>
     
               <div class="OurVolunteers-col">
-                <img src="images/user2.jpg" />
+                <img alt="" src="images/user2.jpg" />
                 <div>
                   <p>alsjdf;lasdjfa;lsdjf;lad</p>
                   <h3>Margeret Hastings</h3>
@@ -84,7 +84,7 @@ const Volunteers = () => {
                 </div>
               </div>
               <div class="OurVolunteers-col">
-                <img src="images/user2.jpg" />
+                <img alt="" src="images/user2.jpg" />
                 <div>
                   <p>alsjdf;lasdjfa;lsdjf;lad</p>
                   <h3>Margeret Hastings</h3>
@@ -96,7 +96,7 @@ const Volunteers = () => {
                 </div>
               </div>
               <div class="OurVolunteers-col">
-                <img src="images/user2.jpg" />
+                <img alt="" src="images/user2.jpg" />
                 <div>
                   <p>alsjdf;lasdjfa;lsdjf;lad</p>
                   <h3>Margeret Hastings</h3>
@@ -108,7 +108,7 @@ const Volunteers = () => {
                 </div>
               </div>
               <div class="OurVolunteers-col">
-                <img src="images/user2.jpg" />
+                <img alt="" src="images/user2.jpg" />
                 <div>
                   <p>alsjdf;lasdjfa;lsdjf;lad</p>
                   <h3>Margeret Hastings</h3>
@@ -120,7 +120,7 @@ const Volunteers = () => {
                 </div>
               </div>
               <div class="OurVolunteers-col">
-                <img src="images/user2.jpg" />
+                <img alt="" src="images/user2.jpg" />
                 <div>
                   <p>alsjdf;lasdjfa;lsdjf;lad</p>
                   <h3>Margeret Hastings</h3>
@@ -132,7 +132,7 @@ const Volunteers = () => {
                 </div>
               </div>
               <div class="OurVolunteers-col">
-                <img src="images/user2.jpg" />
+                <img alt="" src="images/user2.jpg" />
                 <div>
                   <p>alsjdf;lasdjfa;lsdjf;lad</p>
                   <h3>Margeret Hastings</h3>
@@ -144,7 +144,7 @@ const Volunteers = () => {
                 </div>
               </div>
               <div class="OurVolunteers-col">
-                <img src="images/user2.jpg" />
+                <img alt="" src="images/user2.jpg" />
                 <div>
                   <p>alsjdf;lasdjfa;lsdjf;lad</p>
                   <h3>Margeret Hastings</h3>
@@ -156,7 +156,7 @@ const Volunteers = () => {
                 </div>
               </div>
               <div class="OurVolunteers-col">
-                <img src="images/user2.jpg" />
+                <img alt="" src="images/user2.jpg" />
                 <div>
                   <p>alsjdf;lasdjfa;lsdjf;lad</p>
                   <h3>Margeret Hastings</h3>

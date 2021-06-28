@@ -5,7 +5,7 @@ const Home = () => {
     <div>
     <section class="header">
     <nav>
-      <a href="/"><img src="images/logo2.png" /></a>  
+      <a href="/"><img alt="" src="images/logo2.png" /></a>  
       <div class="nav-links" id="navLinks">
         <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
@@ -67,19 +67,19 @@ const Home = () => {
     
     <div class="row">
         <div class="campus-col">
-        <img src="images/6.jpg"/>
+        <img alt="" src="images/6.jpg"/>
         <div class="layer">
             <h3>LONDON</h3>
         </div>
         </div>
         <div class="campus-col">
-        <img src="images/2.jpg"/>
+        <img alt="" src="images/2.jpg"/>
         <div class="layer">
             <h3>NEW YORK</h3>
         </div>
     </div>
     <div class="campus-col">
-        <img src="images/3.jpg"/>
+        <img alt="" src="images/3.jpg"/>
         <div class="layer">
             <h3>WASHINGTON</h3>
         </div>
@@ -97,17 +97,17 @@ const Home = () => {
 
     <div class="row">
         <div class="facilities-col">
-            <img src="images/11.jpg"/>
+            <img alt="" src="images/11.jpg"/>
             <h3>World Class Library</h3>
             <p>saldfjkas;ldhkas;dlhkasd</p>
         </div>
         <div class="facilities-col">
-            <img src="images/8.jpg"/>
+            <img alt="" src="images/8.jpg"/>
             <h3>Largest Play Ground</h3>
             <p>saldfjkas;ldhkas;dlhkasd</p>
         </div>
         <div class="facilities-col">
-            <img src="images/9.jpg"/>
+            <img alt="" src="images/9.jpg"/>
             <h3>Tasty and Healthy Food</h3>
             <p>saldfjkas;ldhkas;dlhkasd</p>
         </div>
@@ -123,7 +123,7 @@ const Home = () => {
 
     <div class="row">
         <div class="testimonial-col">
-            <img src="images/user1.jpg"/>
+            <img alt="" src="images/user1.jpg"/>
             <div>
                 <p>Attentive and great conversationalist</p>
                 <h3>Barbra Berkley</h3>
@@ -135,7 +135,7 @@ const Home = () => {
             </div>
         </div>
         <div class="testimonial-col">
-            <img src="images/user2.jpg"/>
+            <img alt="" src="images/user2.jpg"/>
             <div>
                 <p>Helped with the groceries and the dog</p>
                 <h3>Margeret Hastings</h3>

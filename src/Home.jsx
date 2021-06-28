@@ -24,7 +24,7 @@ const Home = () => {
         <p>Helping our neighbors is one of the easiest and friendliest ways
          to help our neighbors,<br/> find out how we help one
           another</p>
-          <a href="registration.html" class="hero-btn">Join or find one today</a>
+          <a href="/" class="hero-btn">Join or find one today</a>
     </div>
 
 </section>
@@ -154,7 +154,7 @@ const Home = () => {
 
 <section class="cta">
     <h1>Join the community and help us build together</h1>
-    <a href="" class="hero-btn">CONTACT US</a>
+    <a href="/contact" class="hero-btn">CONTACT US</a>
 </section>
 
 

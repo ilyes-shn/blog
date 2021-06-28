@@ -16,7 +16,7 @@ const About = () => {
       <section class="sub-header">
         <nav>
           <a href="index.html">
-            <img src="./images/logo2.png" />
+            <img src="./images/logo2.png" alt="" />
           </a>
           <div class="nav-links" ref={Reff}>
             <i class="fa fa-times" onClick={hideMenu}></i>
@@ -48,12 +48,12 @@ const About = () => {
           <div class="about-col">
             <h1>We are to help our Community</h1>
             <p>Become a volunteer or find one</p>
-            <a href="" class="hero-btn red-btn">
+            <a href="/" class="hero-btn red-btn">
               EXPLORE NOW
             </a>
           </div>
           <div class="about-col"></div>
-          <img src="images/10.png" />
+          <img src="images/10.png" alt=''/>
         </div>
       </section>
 

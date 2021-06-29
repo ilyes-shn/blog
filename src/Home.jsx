@@ -1,13 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Home = () => {
+    const [right, setRight] = useState(-250)
+        
+    
+  function showMenu(){
+      setRight(-50) 
+      console.log('clicked')
+  }
+  function hideMenu(){
+      setRight(-250)
+  }
     return (
     <div>
     <section class="header">
     <nav>
       <a href="/"><img alt="" src="images/logo2.png" /></a>  
-      <div class="nav-links" id="navLinks">
-        <i class="fa fa-times" onclick="hideMenu()"></i>
+      <div class="nav-links" id="navLinks" style={{right: `${right}px` }}>
+        <i class="fa fa-times" onClick={hideMenu}></i>
           <ul>
               <li><a href="/">HOME</a></li>
               <li><a href="/about">ABOUT</a></li>                      
@@ -16,7 +26,7 @@ const Home = () => {
               <li><a href="/contact1">CONTACT</a></li>
           </ul>
       </div>
-      <i class="fa fa-bars" onclick="showMenu()"></i>
+      <i class="fa fa-bars" onClick={showMenu}></i>
     </nav>
 
     <div class="text-box">
@@ -35,7 +45,7 @@ const Home = () => {
     <h1>Friends of the Community</h1>
     <p>Volunteering can help you make friends, learn new skills, <br/>advance your career, and even feel happier and healthier. Learn how to find the right volunteer opportunity for you.</p>
 
-    <div class="row">
+    <div class="row" >
         <div class="course-col">
             <h3>Intermediate</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.

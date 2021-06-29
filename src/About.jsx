@@ -1,15 +1,16 @@
-import React, {useRef} from "react";
+import React, {useState} from "react";
 
 const About = () => {
-  const Reff = useRef()
-    const navLinks = Reff
-  console.log(Reff)
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-    }
+  const [right, setRight] = useState(-200)
+        
+    
+  function showMenu(){
+      setRight(0) 
+      console.log('clicked')
+  }
+  function hideMenu(){
+      setRight(-200)
+  }
 
   return (
     <div>
@@ -18,7 +19,7 @@ const About = () => {
           <a href="index.html">
             <img src="./images/logo2.png" alt="" />
           </a>
-          <div class="nav-links" ref={Reff}>
+          <div class="nav-links" style={{right: `${right}px` }}>
             <i class="fa fa-times" onClick={hideMenu}></i>
             <ul>
               <li>

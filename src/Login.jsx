@@ -8,19 +8,19 @@ const Login = () => {
     <img src="img_avatar2.png" alt="Avatar" class="avatar"/>
   </div>
 
-  <div class="container">
+  <div >
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required/>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required/>
 
-    <button type="submit">Login</button>
+    <button type="submit" style={{backgroundColor: 'tomato'}}>Login</button>
     <label>
-    Remember me
+    Remember me 
     </label>
-      <input type="checkbox" checked="checked" name="remember"/> 
-    <button type="button" class="cancelbtn">Cancel</button>
+      <input type="checkbox"  name="remember"/> 
+    <button type="button" class="cancelbtn" style={{backgroundColor: 'tomato'}}>Cancel</button>
     <span class="psw">Forgot <a href="/">password?</a></span>
   </div>
 

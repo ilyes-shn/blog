@@ -1,12 +1,9 @@
 import React from 'react'
 
-const Login = () => {
+const Register = () => {
     return (
         <div style={{margin: '5%', padding: '10%'}}>
             <form action="action_page.php" method="post">
-  <div class="imgcontainer">
-    <img src="img_avatar2.png" alt="Avatar" class="avatar"/>
-  </div>
 
   <div >
     <label for="uname" style={{margin: '0px 10px'}}><b>Username</b></label>
@@ -15,13 +12,8 @@ const Login = () => {
     <label for="psw" style={{margin: '0px 10px'}}><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required/>
 
-    <button type="submit" style={{backgroundColor: 'tomato'}}>Login</button>
-    <label style={{margin: '0px 10px'}}>
-    Remember me 
-    </label>
-      <input type="checkbox"  name="remember"/> 
-    <button type="button" class="cancelbtn" style={{backgroundColor: 'tomato'}}>Cancel</button>
-    <span class="psw">Forgot <a href="/">password?</a></span>
+    <button type="submit" style={{backgroundColor: 'tomato'}}>Register</button>
+    
   </div>
 
 </form>
@@ -29,4 +21,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Register

@@ -7,6 +7,7 @@ import Volunteers from './Volunteers';
 import Contact from './Contact';
 import Home from './Home';
 import Services from './Services';
+import Register from './Register';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
 
         <Route path="/about" exact component={About}/>
         <Route path="/login" exact component={Login}/>
+        <Route path="/register" exact component={Register}/>
+
         <Route path="/volunteers" exact component={Volunteers}/>
         <Route path="/contact" exact component={Contact}/>
 

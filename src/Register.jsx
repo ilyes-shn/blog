@@ -47,6 +47,20 @@ const Register = () => {
   <input type="password" placeholder="Enter Password" name="psw" required/>
 
   <button type="submit" style={{backgroundColor: 'tomato', width: '100%'}}>Register</button>
+  <button
+              style={{ backgroundColor: "white", width: "100%",border: '1px solid tomato' }}
+            >
+              <a
+              href="/login"
+              style={{
+                color: "tomato",
+                textDecoration: 'none'
+              }}
+            >
+              Login
+            </a>
+            </button>
+
   
 </div>
 

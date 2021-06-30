@@ -17,7 +17,7 @@ const Login = () => {
     <input type="password" placeholder="Enter Password" name="psw" required/>
 
     <button type="submit" style={{backgroundColor: 'tomato', width: '100%'}}>Login</button>
-    <label style={{margin: '0px 10px'}}>
+    <label style={{margin: '0px 10px', transform: 'translateY(25px)'}}>
     Remember me 
     </label>
       <input type="checkbox"  name="remember" style={{height: '20px'}}/> 

@@ -117,7 +117,8 @@ const Login = () => {
               <a
               href="/register"
               style={{
-                color: "tomato"
+                color: "tomato",
+                textDecoration: 'none'
               }}
             >
               Register now

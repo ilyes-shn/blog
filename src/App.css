@@ -617,3 +617,9 @@ footer {
     margin: 0;
   }
 }
+
+input {
+  height: 35px;
+  width: 100%;
+  border-radius: 7px;
+}

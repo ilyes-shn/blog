@@ -25,6 +25,8 @@ const Home = () => {
               <li><a href="/volunteers">VOLUNTEERS</a></li>
               <li><a href="/contact1">CONTACT</a></li>
               <li><a href="/login" style={{backgroundColor: 'tomato', color: 'white', padding: '10px'}}>Login</a></li>
+              <li><a href="/login" style={{backgroundColor: 'white', color: 'tomato', padding: '10px'}}>Login</a></li>
+
           </ul>
       </div>
       <i class="fa fa-bars" onClick={showMenu}></i>

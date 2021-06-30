@@ -32,7 +32,10 @@ const Login = () => {
               <a href="/volunteers">VOLUNTEERS</a>
             </li>
             <li>
-              <a href="/contact1">CONTACT</a>
+              <a href="/blog">BLOG</a>
+            </li>
+            <li>
+              <a href="/contact">CONTACT</a>
             </li>
             <li>
               <a

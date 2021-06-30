@@ -22,7 +22,9 @@ const Services = () => {
               <li><a href="/about">ABOUT</a></li>                      
               <li><a href="/services">SERVICES</a></li>
               <li><a href="/volunteers">VOLUNTEERS</a></li>
-              <li><a href="/contact1">CONTACT</a></li>
+              <li><a href="/blog">BLOG</a></li>
+
+              <li><a href="/contact">CONTACT</a></li>
               <li><a href="/login" style={{backgroundColor: 'tomato', color: 'white', padding: '7px', borderRadius: '5px'}}>Login</a></li>
               <li><a href="/register" style={{backgroundColor: 'white', color: 'tomato', padding: '7px', borderRadius: '5px'}}>Register</a></li>
 

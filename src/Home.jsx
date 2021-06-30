@@ -39,7 +39,7 @@ const Home = () => {
         <p>Helping our neighbors is one of the easiest and friendliest ways
          to help our neighbors,<br/> find out how we help one
           another</p>
-          <a href="/" class="hero-btn">Join or find one today</a>
+          <a href="/register" class="hero-btn">Join or find one today</a>
     </div>
 
 </section>

@@ -52,7 +52,7 @@ const About = () => {
           <div class="about-col">
             <h1>We are to help our Community</h1>
             <p>Become a volunteer or find one</p>
-            <a href="/" class="hero-btn red-btn">
+            <a href="/blog" class="hero-btn red-btn">
               EXPLORE NOW
             </a>
           </div>

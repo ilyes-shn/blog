@@ -1,8 +1,36 @@
-import React from "react";
+import React, {useState} from 'react'
+
 
 const Blog = () => {
+  const [right, setRight] = useState(-250)
+        
+    
+  function showMenu(){
+      setRight(-50) 
+      console.log('clicked')
+  }
+  function hideMenu(){
+      setRight(-250)
+  }
   return (
     <div>
+      <nav style={{backgroundColor: 'gray'}}>
+      <a href="/"><img alt="" src="images/logo2.png" /></a>  
+      <div class="nav-links" id="navLinks" style={{right: `${right}px` }}>
+        <i class="fa fa-times" onClick={hideMenu}></i>
+          <ul>
+              <li><a href="/">HOME</a></li>
+              <li><a href="/about">ABOUT</a></li>                      
+              <li><a href="/services">SERVICES</a></li>
+              <li><a href="/volunteers">VOLUNTEERS</a></li>
+              <li><a href="/contact1">CONTACT</a></li>
+              <li><a href="/login" style={{backgroundColor: 'tomato', color: 'white', padding: '7px', borderRadius: '5px'}}>Login</a></li>
+              <li><a href="/register" style={{backgroundColor: 'white', color: 'tomato', padding: '7px', borderRadius: '5px'}}>Register</a></li>
+
+          </ul>
+      </div>
+      <i class="fa fa-bars" onClick={showMenu}></i>
+    </nav>
       <header>
         <h1>Our Blog</h1>
       </header>

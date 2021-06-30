@@ -38,7 +38,7 @@ const About = () => {
                 <a href="/contact">CONTACT</a>
               </li>
               <li><a href="/login" style={{backgroundColor: 'tomato', color: 'white', padding: '10px'}}>Login</a></li>
-              <li><a href="/login" style={{backgroundColor: 'white', color: 'tomato', padding: '10px'}}>Login</a></li>
+              <li><a href="/login" style={{backgroundColor: 'white', color: 'tomato', padding: '10px'}}>Register</a></li>
 
             </ul>
           </div>
